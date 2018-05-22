@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div id="start">
+    <img id="logo" src="images/logo-small.png">
+    <div id="start-info">
+      <img id="logo1" src="images/logo.png">
+      <p><h1>College Bound</h1>
+      A starting point for anyone looking to navigate the vast world of higher learning. No student should be limited by test scores or financial standing, our App will help ANY potential students quickly enter their ACT or SAT scores, location and financial standing to receive a list of potential schools just right for their needs.<br><br>
+      Search by voice or keystroke to receive your results.</p>
+      <button id="a">Start</button>
+    </div>
+  </div>
+  <div id="err-container">
+    <div id="err">
+      Oops!<br>
+      Sorry looks like we couldn't find any schools.<br>
+      Try another search.
+    </div>
+  </div>
+  <div id="query-container">
+    <input id="input" type="text">
+    <div id="submit">Submit</div>
+    <div id="speak"><img src="images/speech-icon-small.png"></div>
+  </div>
+  <div id="params-container">
+    <div id="reset">Reset</div>
+    <div id="params"></div>
+  </div>
+  <div id="total">
+  </div>
+  <div id="results"></div>
+  <div id="pagination">
+    <div id="prev" class="page">↜</div>
+    <div id="next" class="page">↝</div>
+  </div>
+  <div id="page-number">
+    <div id="current-page"></div>
+      /
+    <div id="total-pages"></div>
+  </div>
+  <div id="most-popular">
+    Popular
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/color/jquery.color-2.1.2.js"></script>
+<script src="./js/app.js"></script>
+
+</body>
+</html>
